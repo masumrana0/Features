@@ -13,9 +13,13 @@ const App = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "system"
   );
+
+  // access  to system theme mode
   const darkQuery = window.matchMedia("(prefers-color-scheme:dark)");
+  // access element
   const element = document.documentElement;
 
+  // icons
   const icons = [
     {
       icon: BsSun,
