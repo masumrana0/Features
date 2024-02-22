@@ -1,3 +1,11 @@
+/**
+ * Title: 'Dark mode implement by Masum Rana'
+ * Description: ''
+ * Author: 'Masum Rana'
+ * Date: 22-02-2024
+ *
+ */
+
 import { useEffect, useState } from "react";
 import { BsFillMoonFill, BsSun, BsPcDisplayHorizontal } from "react-icons/bs";
 
